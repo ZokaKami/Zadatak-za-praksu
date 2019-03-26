@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>Greenearth</title>
+  <meta charset="UTF-8">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <script src="imagewheel.js"></script>
+  <meta name="viewport" content="width=device-width">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+
+</head>
+
+<body>
+  <header>
+    <h1 id="title"></h1>
+    <div class="wrapper" >
+      <nav class="navone">
+        <ul>
+          <li><a href="" class="current"><img src="images/Earth.png" alt="banner"></a></li>
+          <li><a href="" class="current">Info </a></li>
+          <li><a href="" class="current">About us </a></li>
+          <li><a href="" class="current">Contact </a></li>
+        </ul>
+      </nav>
+      <nav class="navtwo">
+        <ul>
+          <li><a href="" class="current">LOGIN</a></li>
+          <li><a href="" class="current"><img src="images/Flag.jpg" alt="flag">&nbsp; EN - UK(&pound;) </a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="wrapperMobile" >
+      <img class="earth" src="images/Earth.png" alt="globe image">
+      <ul class="navMtwo">
+        <li><a href="" class="current">LOGIN</a></li>
+        <li><a href="" class="current"><img src="images/Flag.jpg" alt="flag">&nbsp; EN - UK(&pound;) </a></li>
+      </ul>
+      <ul class="navMone">
+        <li><a href="" class="current">Info </a></li>
+        <li><a href="" class="current">About us </a></li>
+        <li><a href="" class="current">Contact </a></li>
+      </ul>
+    </div>
+  </header>
+
+  <div class="banner" id="banner" >
+    <h1>Enjoy our hot <br /> summer deals</h1>
+    <button class="ArrowL" onclick="showNext()"  id="dugme" type="submit"><img src="images/ArrowR.png" alt="right arrow"></button>
+    <button class="ArrowL" onclick="showPrevious()" id="dugme2" type="submit"><img src="images/ArrowL.png" alt="left arrow"></button>
+    <h2>from &pound;69.50</h2>
+    <button type="submit">Book now!</button>
+  </div>
+  <div class="Features">
+    <h2>LOW COST DOESN'T MEAN CHEAP</h2>
+    <h3>Fly smart, fly with Green Earth</h3>
+    <h4>Fly smart,<br /> fly with Green earth</h4>
+
+    <ul>
+      <li><img src="images/Seats.jpg" alt="seat">
+        <span>Reclinable seats</span>
+        <p>Lorem ipsum dolor sit amet, consectetur ipisicing elit, sed do eiusmod tempor inciunt ut labore et dolore magna aliqua.</p>
+      </li>
+      <li><img src="images/Legroom.jpg" alt="legroom"> <span>Plenty of legroom</span><br />
+        <p>Lorem ipsum dolor sit amet, consectetur ipisicing elit, sed do eiusmod tempor inciunt ut labore et dolore magna aliqua. </p>
+      </li>
+      <li><img src="images/Luggage.jpg" alt="luggage"> <span>Free cabin luggage</span><br />
+        <p>Lorem ipsum dolor sit amet, consectetur ipisicing elit, sed do eiusmod tempor inciunt ut labore et dolore magna aliqua.</p>
+      </li>
+      <li><img src="images/Crew.jpg" alt="crew"> <span>Friendly crew</span><br />
+        <p>Lorem ipsum dolor sit amet, consectetur ipisicing elit, sed do eiusmod tempor inciunt ut labore et dolore magna aliqua.</p>
+      </li>
+    </ul>
+
+  </div>
+
+  <div class="deals">
+    <h1>Showing our offers from</h1>
+    <h2>Showing <br /> our offers from</h2>
+    <ul>
+
+      <li><img src="images/London.jpg" alt="london bus"><div class="ribbon">3hr left at this rate</div>
+        <p>London <br /> <span>from &pound;59</span><a href=""><br /><br />Book now></a></p>
+      </li>
+      <li><img src="images/Hamburg.jpg" alt="hamburg">
+        <p>Hamburg <br /> <span>from &pound;79</span><a href=""><br /><br />Book now></a></p>
+      </li>
+      <li><img src="images/Alicante.jpg" alt="alicante">
+        <p>Alicante <br /> <span>from &pound;89</span><a href=""><br /><br />Book now></a></p>
+      </li>
+      <li><img src="images/Milano.jpg" alt="milano">
+        <p>Milano <br /> <span>from &pound;119</span><a href=""><br /><br />Book now></a></p>
+      </li>
+    </ul>
+  </div>
+  <div>
+
+    <div class="inspire">
+      <p>Don't know where to go?<a href="">Let us inspire you</a></p>
+    </div>
+    <div class="inspireMobile">
+      <h1>Don't know where to go?</h1>
+      <a href="">Let us inspire you </a>
+    </div>
+
+  </div>
+  <div class="classesMobile">
+    <h1>QUALITY FROM THE INSIDE</h1>
+    <h2>Travel the way you want</h2>
+    <h5> Lorem ipsum dolor sit amet, consectetur ipisicing elit, sed do eiusmod tempor iincunt</h5>
+    <h6><br /><a href="">View all services & upgrades</a></h6>
+    <div class="boxMobile">
+      <img src="images/classesMobile.jpg" alt="child photo">
+      <h3>Regular</h3>
+      <ul>
+        <li>Reclinable seats</li>
+        <li>1 hand luggage</li>
+        <li>Extra leg room</li>
+      </ul>
+
+      <ul>
+        <li>Extra cabin luggage</li>
+        <li>Extra hold luggage</li>
+        <li>Lounge access</li>
+      </ul>
+
+    </div>
+    <div class="boxMobile">
+      <img src="images/classesMobile.jpg" alt="child photo small">
+      <h3>Plus</h3>
+      <ul>
+        <li>Reclinable seats</li>
+        <li>1 hand luggage</li>
+        <li>Extra leg room</li>
+      </ul>
+
+      <ul>
+        <li>Extra cabin luggage</li>
+        <li>Extra hold luggage</li>
+        <li>Lounge access</li>
+      </ul>
+
+    </div>
+    <div class="boxMobile">
+      <img src="images/classesMobile.jpg" alt="child photo">
+      <h3>Premium</h3>
+      <ul>
+        <li>Reclinable seats</li>
+        <li>1 hand luggage</li>
+        <li>Extra leg room</li>
+      </ul>
+
+      <ul>
+        <li>Extra cabin luggage</li>
+        <li>Extra hold luggage</li>
+        <li>Lounge access</li>
+      </ul>
+
+    </div>
+  </div>
+
+
+  <div class="classes">
+    <h1> QUALITY FROM THE INSIDE</h1>
+    <h2>Travel the way you want</h2>
+    <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ulnisi ut aliquip ex ea commodo. consequat.</h3>
+    <a>View all services & upgrades</a><br />
+
+    <div class="box">
+      <p>Regular</p>
+      <p>Plus</p>
+      <p>Premium</p>
+
+      <ul class="money">
+        <li><span>Extra cabin luggage</span></li>
+        <li><span>Extra hold luggage</span></li>
+        <li><span>Lounge access</span></li>
+      </ul>
+      <ul >
+        <li>Reclinable seats</li>
+        <li>1 Hand luggage</li>
+        <li>Extra leg room</li>
+      </ul>
+
+      <img src="images/Regular.jpg" alt="child photo">
+    </div>
+
+  </div>
+
+  <div class="social">
+    <h1>Subscribe to our</h1>
+    <input type="text" placeholder="Enter your Email adress"><button>Send</button>
+    <a href=""><img src="images/Fb.jpg" alt="facebook"><img src="images/Twitter.jpg" alt="twitter logo"><img src="images/IG.jpg" alt="instagram logo"></a>
+    <h2>Follow us</h2>
+
+  </div>
+  <div class="socialTablet">
+    <h1>Subscribe to our <span>newsletter</span></h1>
+    <input type="text" placeholder="Enter your email adress">
+    <button type="submit">Send</button>
+  </div>
+
+  <div class="followTablet">
+    <h1>Follow us</h1>
+    <div>
+      <a href=""><img src="images/FacebookT.jpg" alt="facebook logo"></a>
+      <a href=""><img src="images/TwitterT.jpg" alt="twitter logo"></a>
+      <a href=""><img src="images/InstagramT.jpg" alt="instagram logo"></a>
+    </div>
+    <div class="paymentTablet">
+      <a href=""><img src="images/MasterCardT.jpg" alt="mastercard logo"></a>
+      <a href=""><img src="images/VisaT.jpg" alt="visa logo"></a>
+      <a href=""><img src="images/AmexT.jpg" alt="amex logo"></a>
+      <a href=""><img src="images/PaypalT.jpg" alt="paypal logo"></a>
+    </div>
+
+    <h2><a href="">Terms & Privacy</a>
+      <a href="">Site Map</a></h2>
+  </div>
+
+  <div class="footer">
+    <a href=""><img src="images/Mastercard.jpg" alt="mastercard logo"></a>
+    <a href=""><img src="images/Visa.jpg" alt="visa logo"></a>
+    <a href=""><img src="images/Amex.jpg" alt="amex logo"></a>
+    <a href=""><img src="images/Paypal.jpg" alt="paypal logo"></a>
+    <a href="">Site Map</a><a href="">Terms & Privacy</a>
+  </div>
+
+</body>
+
+</html>

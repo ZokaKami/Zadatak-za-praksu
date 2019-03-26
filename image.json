@@ -1,0 +1,34 @@
+{
+  "banners":[
+  {
+    "url": "images/Banner.jpg",
+    "description" : "first banner image"
+  },
+  {
+    "url": "images/Banner2.jpg",
+    "description" : "second banner image"
+  },
+  {
+    "url": "images/Banner3.jpg",
+    "description" : "third banner image"
+  }
+
+],
+
+
+"bannerstablet":[
+{
+  "url": "images/BannerTablet.jpg",
+  "description" : "first banner image"
+},
+{
+  "url": "images/BannerTablet2.jpg",
+  "description" : "second banner image"
+},
+{
+  "url": "images/BannerTablet3.jpg",
+  "description" : "third banner image"
+}
+
+]
+}
